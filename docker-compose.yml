@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  elasticsearch:
+    image: elasticsearch:7.10.1
+    ports:
+      - "9200:9200" #HTTP
+      - "9300:9300" #TCP
+    environment:
+      - discovery.type=single-node
