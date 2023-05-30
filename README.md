@@ -18,6 +18,8 @@
 
 **Elasticsearch’e bir veri kaydettiğimiz zaman, veri içerisinde belirleğimiz alanlar Apache Lucene altyapısı kullanılarak indexlenir. Elasticsearch bir kelimenin hangi dökümanda(row) geçtiğini veriler kaydedilirken indexler . Sonrasında ise kelime aramak istediğimizde tüm veriler üzerinde arama yapmak yerine, daha önce oluşturulan index listesi üzerinden sonuçlar hızlıca bulunmaktadır.**
 
+![](/images/elastic4.png)
+
 ## 🎯 Temel özellikleri nelerdir?
 
 1. **Dağıtık ve Ölçeklenebilir: Elasticsearch, verileri bir veya daha fazla düğüm üzerinde dağıtarak ölçeklenebilirlik sunar. Yeni düğümlerin eklenmesi veya var olan düğümlerin çıkarılması kolaydır. Bu sayede büyük veri kümeleriyle çalışmak mümkündür.**
